@@ -1,5 +1,6 @@
 import smtplib
 
+# email credentials
 my_email = ""
 my_password = ""
 
