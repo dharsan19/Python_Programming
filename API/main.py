@@ -22,7 +22,6 @@ def is_iss_overhead():
         return True
 
 
-
 def is_night():
     parameters = {
         "lat": MY_LAT,
