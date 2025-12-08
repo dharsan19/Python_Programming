@@ -6,5 +6,4 @@ with open("List_Comprehension/file2.txt", "r") as f2:
 
 result = [num for num in list1 if num in list2]
 
-
 print(result)
