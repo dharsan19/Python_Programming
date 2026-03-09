@@ -19,6 +19,7 @@ def is_iss_overhead():
     #Your position is within +5 or -5 degrees of the iss position.
     if MY_LAT-5 <= iss_latitude <= MY_LAT+5 and MY_LONG-5 <= iss_longitude <= MY_LONG+5:
         return True
+    
 def is_night():
     parameters = {
         "lat": MY_LAT,
