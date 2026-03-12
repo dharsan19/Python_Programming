@@ -21,7 +21,6 @@ def is_iss_overhead():
     if MY_LAT-5 <= iss_latitude <= MY_LAT+5 and MY_LONG-5 <= iss_longitude <= MY_LONG+5:
         return True
     
-#Using the API, determine whether it is currently dark enough to see the ISS. The API returns the sunrise and sunset times for a given location. If the ISS is close to my current position and it is currently dark, then send me an email to tell me to look up.
 def is_night():
     parameters = {
         "lat": MY_LAT,
