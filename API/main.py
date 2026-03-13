@@ -20,6 +20,7 @@ def is_iss_overhead():
     #Your position is within +5 or -5 degrees of the iss position.
     if MY_LAT-5 <= iss_latitude <= MY_LAT+5 and MY_LONG-5 <= iss_longitude <= MY_LONG+5:
         return True
+    
 #Using the API, determine when it is currently dark at my location. If it is dark and the ISS is overhead, then send me an email to tell me to look up.
 def is_night():
     parameters = {
