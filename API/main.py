@@ -39,7 +39,6 @@ def is_night():
     if time_now >= sunset or time_now <= sunrise:
         return True
 
-#If the ISS is close to my current position and it is currently dark, then send me an email to tell me to look up.
 while True:
     time.sleep(60)
     if is_iss_overhead() and is_night():
