@@ -3,6 +3,7 @@ from datetime import datetime
 import smtplib
 import time
 
+#TODO: Create a program that runs in the background and checks every 60 seconds to see if the ISS is above you in the sky (within +5 or -5 degrees of your current position). If it is, and it is currently dark, then send yourself an email to tell you to look up.
 MY_EMAIL = "___YOUR_EMAIL_HERE____"
 MY_PASSWORD = "___YOUR_PASSWORD_HERE___"
 MY_LAT = 51.507351 # Your latitude
