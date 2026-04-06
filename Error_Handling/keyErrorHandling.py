@@ -6,7 +6,6 @@ facebook_posts = [
     {'Comments': 1, 'Shares': 1},
     {'Likes': 19, 'Comments': 3}
 ]
-
 def count_likes(posts):
 
     total_likes = 0
