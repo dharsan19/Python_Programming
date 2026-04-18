@@ -8,7 +8,6 @@ facebook_posts = [
 ]
 # Create a function that counts the total number of likes for all the posts in the list. Make sure your function works even if some posts don't have any likes.
 def count_likes(posts):
-
     total_likes = 0
     for post in posts:
         try:
