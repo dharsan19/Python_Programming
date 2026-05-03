@@ -1,4 +1,3 @@
-# Turtle Racing Game
 from turtle import *
 import random
 
