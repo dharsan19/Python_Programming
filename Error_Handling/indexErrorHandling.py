@@ -1,3 +1,4 @@
+# IndexError Handling
 fruits = ["Apple", "Pear", "Orange"]
 
 def make_pie(index):
