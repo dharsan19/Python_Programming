@@ -4,6 +4,7 @@ from quiz_brain import QuizBrain
 
 question_bank = []
 
+#loop
 for question in question_data:
     question_text = question["text"]
     question_answer = question["answer"]
