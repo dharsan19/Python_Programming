@@ -1,4 +1,3 @@
-#imports
 import pandas
 
 data = pandas.read_csv("pandas/Squirrel_Data.csv")
