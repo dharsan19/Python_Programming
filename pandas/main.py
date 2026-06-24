@@ -1,7 +1,6 @@
 import pandas
 
 data = pandas.read_csv("pandas/Squirrel_Data.csv")
-
 gray_squirrel_count = len(data[data["Primary Fur Color"] == "Gray"])
 cinnamon_squirrel_count = len(data[data["Primary Fur Color"] == "Cinnamon"])
 black_squirrel_count = len(data[data["Primary Fur Color"] == "Black"])
