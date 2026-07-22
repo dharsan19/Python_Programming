@@ -4,6 +4,7 @@ timmy = Turtle()
 timmy.shape("turtle")
 timmy.color("cyan")
 
+#Function
 def timmy_move():
     timmy.forward(100)
     timmy.left(90)
